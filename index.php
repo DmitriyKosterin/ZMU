@@ -1,8 +1,8 @@
 <!doctype html public "-//w3c//dtd html 3.2 final//ru">
 <html>
   <head>
-    <?="<title>Весы и дозаторы</title>\n";?> 
-    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+    <?="<title>Г‚ГҐГ±Г» ГЁ Г¤Г®Г§Г ГІГ®Г°Г»</title>\n";?> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="styles_divs.css" type="text/css" />
     <link rel="stylesheet" href="styles_fonts.css" type="text/css" />
     <link rel="stylesheet" href="scales/show_active.css" type="text/css" />
@@ -63,15 +63,15 @@
       <p class="title_scales">
         <table border=0 width=100%>
           <tr>
-            <td><p class="text_scales">Весы вагонные</p></td>
+            <td><p class="text_scales">Г‚ГҐГ±Г» ГўГ ГЈГ®Г­Г­Г»ГҐ</p></td>
           </tr>
         </table>
       </p>
       <p class="data_scales">
-		<a href="weight_carriage_01/">Цех 01, путь 01</a><br>
-        <a href="weight_carriage_02/">Цех 02, пути 02 и 03</a><br>
-        <a href="weight_carriage_03/">Цех 03,пути 04 и 05</a><br>
-        <a href="weight_carriage_04/">Цех 04, путь 06</a><br>
+		<a href="weight_carriage_01/">Г–ГҐГµ 01, ГЇГіГІГј 01</a><br>
+        <a href="weight_carriage_02/">Г–ГҐГµ 02, ГЇГіГІГЁ 02 ГЁ 03</a><br>
+        <a href="weight_carriage_03/">Г–ГҐГµ 03,ГЇГіГІГЁ 04 ГЁ 05</a><br>
+        <a href="weight_carriage_04/">Г–ГҐГµ 04, ГЇГіГІГј 06</a><br>
       </p>
     </div> <!-- body_one_section -->
     <div class="body_scales">
@@ -79,14 +79,14 @@
         <table border=0 width=100%>
           <tr>
             <td align=left width=90%>
-              <p class="text_scales">Весы автомобильные</p>
+              <p class="text_scales">Г‚ГҐГ±Г» Г ГўГІГ®Г¬Г®ГЎГЁГ«ГјГ­Г»ГҐ</p>
             </td>
           </tr>
         </table>
       </p>
       <p class="data_scales">
-		<a href="weight_auto_05/">Цех 05, корпус 001</a><br>
-        <a href="weight_auto_06/">Цех 06, корпус 002</a><br>
+		<a href="weight_auto_05/">Г–ГҐГµ 05, ГЄГ®Г°ГЇГіГ± 001</a><br>
+        <a href="weight_auto_06/">Г–ГҐГµ 06, ГЄГ®Г°ГЇГіГ± 002</a><br>
       </p>
     </div> <!-- body_scales -->
     <div class="body_scales">
@@ -94,20 +94,20 @@
         <table border=0 width=100%>
           <tr>
             <td align=left width=90%>
-              <p class="text_scales">Фасовка в мешки и МКР</p>
+              <p class="text_scales">Г”Г Г±Г®ГўГЄГ  Гў Г¬ГҐГёГЄГЁ ГЁ ГЊГЉГђ</p>
             </td>
           </tr>
         </table>
       </p>   
       <p class="data_scales">
-		<a href="ZMU2/bigbag_07_003">Цех 07, ВСЕЛУГ (МКР), корпус 003</a><span id="bigbag_vselug_07_003">&#9829;</span><br>
-		<a href="ZMU2/ffs_07">Цех 07, FFS (мешки 25кг), корпус 003</a><span id="ffs_07_003">&#9829;</span><br>
-		<a href="ZMU2/bigbag_07_004">Цех 07, ВСЕЛУГ (МКР), корпус 004</a><span id="bigbag_vselug_07_004">&#9829;</span><br>
-		<a href="ZMU2/ffs_07_004">Цех 07, FFS (мешки 25кг), корпус 004</a><span id="ffs_07_004">&#9829;</span><br>
-        <a href="ZMU2/bigbag_portabulk_08_005">Цех 08, Portabulk (МКР), корпус 005</a><span id="bigbag_portabulk_08_005">&#9829;</span><br>
-        <a href="ZMU2/bigbag_vselug_08_005">Цех 08, ВСЕЛУГ (МКР), корпус 005</a><span id="bigbag_vselug_08_005">&#9829;</span><br>
-        <a href="ZMU2/bigbag_vselug_09_006">Цех 09, ВСЕЛУГ (МКР), корпус 006</a><span id="bigbag_vselug_09_006">&#9829;</span><br>
-        <a href="ZMU2/bigbag_tecnopack_09_006">Цех 09, Tecnopack (МКР), корпус 006</a><span id="bigbag_tecnopack_09_006">&#9829;</span><br>
+		<a href="ZMU2/bigbag_07_003">Г–ГҐГµ 07, Г‚Г‘Г…Г‹Г“Гѓ (ГЊГЉГђ), ГЄГ®Г°ГЇГіГ± 003</a><span id="bigbag_vselug_07_003">&#9829;</span><br>
+		<a href="ZMU2/ffs_07">Г–ГҐГµ 07, FFS (Г¬ГҐГёГЄГЁ 25ГЄГЈ), ГЄГ®Г°ГЇГіГ± 003</a><span id="ffs_07_003">&#9829;</span><br>
+		<a href="ZMU2/bigbag_07_004">Г–ГҐГµ 07, Г‚Г‘Г…Г‹Г“Гѓ (ГЊГЉГђ), ГЄГ®Г°ГЇГіГ± 004</a><span id="bigbag_vselug_07_004">&#9829;</span><br>
+		<a href="ZMU2/ffs_07_004">Г–ГҐГµ 07, FFS (Г¬ГҐГёГЄГЁ 25ГЄГЈ), ГЄГ®Г°ГЇГіГ± 004</a><span id="ffs_07_004">&#9829;</span><br>
+        <a href="ZMU2/bigbag_portabulk_08_005">Г–ГҐГµ 08, Portabulk (ГЊГЉГђ), ГЄГ®Г°ГЇГіГ± 005</a><span id="bigbag_portabulk_08_005">&#9829;</span><br>
+        <a href="ZMU2/bigbag_vselug_08_005">Г–ГҐГµ 08, Г‚Г‘Г…Г‹Г“Гѓ (ГЊГЉГђ), ГЄГ®Г°ГЇГіГ± 005</a><span id="bigbag_vselug_08_005">&#9829;</span><br>
+        <a href="ZMU2/bigbag_vselug_09_006">Г–ГҐГµ 09, Г‚Г‘Г…Г‹Г“Гѓ (ГЊГЉГђ), ГЄГ®Г°ГЇГіГ± 006</a><span id="bigbag_vselug_09_006">&#9829;</span><br>
+        <a href="ZMU2/bigbag_tecnopack_09_006">Г–ГҐГµ 09, Tecnopack (ГЊГЉГђ), ГЄГ®Г°ГЇГіГ± 006</a><span id="bigbag_tecnopack_09_006">&#9829;</span><br>
       </p>
     </div> <!-- body_scales -->
     <br>        
@@ -117,13 +117,13 @@
         <table border=0 width=100%>
           <tr>
             <td align=left width=90%>
-              <p class="text_scales">Весы лабораторные</p>
+              <p class="text_scales">Г‚ГҐГ±Г» Г«Г ГЎГ®Г°Г ГІГ®Г°Г­Г»ГҐ</p>
             </td>
           </tr>
         </table>
       </p>
       <p class="data_scales">
-        <a href="weight_lab">цех 10, корпус 011</a><br>
+        <a href="weight_lab">Г¶ГҐГµ 10, ГЄГ®Г°ГЇГіГ± 011</a><br>
       </p>
     </div> <!-- body_scales -->
 	
@@ -132,13 +132,13 @@
         <table border=0 width=100%>
           <tr>
             <td align=left width=90%>
-              <p class="text_scales">Логистический стол</p>
+              <p class="text_scales">Г‹Г®ГЈГЁГ±ГІГЁГ·ГҐГ±ГЄГЁГ© Г±ГІГ®Г«</p>
             </td>
           </tr>
         </table>
       </p>
       <p class="data_scales">
-        <a href="ZMU2/vm_logo_06/">цех 06</a><br>
+        <a href="ZMU2/vm_logo_06/">Г¶ГҐГµ 06</a><br>
       </p>
     </div>
 
