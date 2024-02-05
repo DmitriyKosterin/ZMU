@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<title>Взвешивание на ж/д весах</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta http-equiv="Cache-Control" content="no-cache">
+</head>
+
+<body bgcolor="#FFFEED" text=#000000 leftMargin=20 topMargin=0 marginheight="10" marginwidth="100">
+<!--<P align=center><IMG src="logo.jpg">-->
+<HR width="100%">
+<table cellspacing=0 cellpadding=0 border=0 width="100%">
+<tr>
+  <td bgcolor=#EFEBEF>
+  <H2 align=center>Взвешивание на железнодорожных весах </H2>
+  <H3 align=center>Название весов</H3>
+  </td>
+</tr>
+</table>
+<br>
+
+<? require("func.inc"); ?>
+
+<form action="rv.php" method="post">
+<fieldset><legend>Начальная дата</legend>
+<table cellspacing=0 cellpadding=10 width="49%" align=center border=0>
+<tbody>
+<tr>
+  <td>Год&nbsp<select name="year1">
+    <? print_select_year("2003",30); ?>
+    </select>
+  </td>
+  <td>Месяц&nbsp<select name="month1">
+    <? print_select_month(); ?>
+    </select>
+  </td>
+  <td>Число&nbsp<select name="day1">
+    <? print_select_day(); ?>
+    </select>
+  </td>
+</tr>
+</tbody>
+</table>
+</fildset><br>
+
+<fildset><legend>Конечная дата</legend>
+<table cellspacing=0 cellpadding=10 width="49%" align=center border=0>
+<TBODY>
+<tr>
+  <td>Год&nbsp<select name="year2">
+    <? print_select_year("2003",30); ?>
+    </select>
+  </td>
+  <td>Месяц&nbsp<select name="month2">
+    <? print_select_month(); ?>
+    </select>
+  </td>
+  <td>Число&nbsp<select name="day2">
+    <? print_select_day(); ?>
+    </select>
+  </td>
+</tr>
+</tbody>
+</table >
+</fieldset><br>
+
+<fieldset><legend>Смена</legend>
+<table cellspacing=0 cellpadding=10 width="49%" align=center border=0>
+<tbody>
+<tr>
+<td align=center>А<INPUT type="checkbox" name="smena_a" checked></td>
+<td align=center>Б<INPUT type="checkbox" name="smena_b" checked></td>
+<td align=center>В<INPUT type="checkbox" name="smena_w" checked></td>
+<td align=center>Г<INPUT type="checkbox" name="smena_g" checked></td>
+</tr>
+</tbody>
+</table>
+</fieldset><br>
+
+<table cellspacing=10 cellpadding=0 width="90%" border=0>
+<tbody>
+<tr>
+  <td align=right>Номер поезда</td>
+  <td><INPUT size=13 type="text" name="poezd" maxlength=12></td>
+  <td align=right>Номер вагона</td>
+  <td><INPUT size=13 type="text" name="vagon" maxlength=8></td>
+  <td align=right>Номер цеха</td>
+  <td><INPUT size=13 type="text" name="ceh" maxlength=8></td>
+</tr>
+</TBODY>
+</TABLE >
+<br><br>
+<input type="submit" value="Выбор"> <INPUT type="reset" value="Сброс">
+</form>
+</body>
+</html>

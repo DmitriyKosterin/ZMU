@@ -1,0 +1,56 @@
+h3
+{
+  font-family:"Arial"; 
+	border:10px; 
+}
+
+
+
+body
+{
+  font-family:"Arial"; 
+  background-color:white; 
+}
+
+tbody 
+{ 
+  font-size:16; 
+  font-family:"Arial";
+}
+
+legend 
+{ 
+  font-size:16; 
+  font-family:"Arial";
+  font-weight:bold;
+}
+
+table.tframe 
+{
+  border-collapse:collapse; 
+  border:2px solid #000000;
+}
+
+table.tframe tr.titlerow 
+{
+  border:2px solid #000000; 
+  background-color: #EFEBEF;
+  font-family:"Arial";
+}
+
+table.tframe tr 
+{
+  border:10px; 
+  solid #000000;
+}
+
+table.tframe td 
+{
+  border: 1px solid #000000;
+}
+
+table.tframe th 
+{
+  border: 1px solid #000000;
+}
+

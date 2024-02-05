@@ -1,0 +1,107 @@
+.home-menu {
+    padding: 0.5em;
+    //1text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+}
+
+.home-menu {
+    background: darkblue;
+}
+
+.pure-menu.pure-menu-fixed {
+    /* Fixed menus normally have a border at the bottom. */
+    border-bottom: none;
+    /* I need a higher z-index here because of the scroll-over effect. */
+    z-index: 4;
+}
+
+.home-menu .pure-menu-heading {
+    color: white;
+    font-weight: 400;
+    font-size: 120%;
+}
+
+.home-menu .pure-menu-selected a {
+    color: white;
+}
+
+.home-menu a {
+    color: #6FBEF3;
+}
+.home-menu li a:hover,
+.home-menu li a:focus {
+    background: none;
+    border: none;
+    color: white;
+}
+
+
+.home-menu {
+    text-align: left;
+}
+
+.home-menu ul {
+    float: right;
+}
+
+
+@media (min-width: 78em) {
+    /* We increase the header font size even more */
+    .splash-head {
+        font-size: 300%;
+    }
+}
+
+  
+.menu-list
+{
+    width:100%; 
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.content {
+    padding-top: 100px;
+    width:90%;
+    height:100%;
+    margin:0 auto;
+ }
+
+
+h1,h2,h3 {
+    color: #34495e;
+    text-align: center;
+}
+
+
+h4,h5,h6 {
+  color: #34495e;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+.txt-centered {
+    text-align: center;   
+}
+
+table.tabledata {
+    border-collapse: collapse;
+    margin-left:auto; 
+    margin-right:auto;
+    border: 1px solid #D3D3D3;
+	background-color: #00945D;
+	color: #00945D;
+}
+
+.tabledata thead,
+.tabledata td,
+.tabledata th {
+    padding: 13px;
+    border: 1px solid #D3D3D3;
+	background-color: #00945D;
+	color: #00945D;
+}
+
+
