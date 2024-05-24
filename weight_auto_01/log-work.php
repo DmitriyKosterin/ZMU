@@ -7,7 +7,7 @@
     <meta http-equiv="Cache-Control" content="no-cache">
   </head>
   <body>
-    <!-- <h2 align=center>Весы №5</h2> -->
+    <!-- <h2 align=center>Название весов</h2> -->
     <p><a href="#" onclick="history.back();">Назад</a></p> 
 
     <h4 align=center>Протокол взвешивания автотранспорта</h4>
