@@ -1,0 +1,89 @@
+body {
+  font-family: "Arial";
+}
+
+.curdata {
+  color: blue;
+}
+
+#curweight {
+  color: blue;
+  font-size: 40pt;
+  text-align: center;
+}
+
+#operator {
+  color: blue;
+  font-size: 16pt;
+  text-align: right;
+}
+
+.tr_ax > td {
+  width: 70px;
+  text-align: center;
+}
+
+.tr_ax .nnn {
+  font-size: smaller;
+  font-weight: bolder;
+}
+
+.title_main_page {
+  background-color: lightgreen;
+  text-align: center;
+  font: bold;
+}
+
+LEGEND {
+  font-size: 16pt;
+  font: bold;
+}
+
+.titlerow {
+  background-color: lightcyan;
+}
+
+table.select td {
+  font-size: 14pt;
+}
+
+select {
+  font-size: 14pt;
+}
+
+table.tframe {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+table.t_axis {
+  table-layout: fixed;
+}
+
+div#axes_summary {
+  width: 90%;
+  /*border: 3px solid red;*/
+  margin: auto;
+}
+
+table.tframe tr {
+  border: 1px solid black;
+}
+
+table.tframe td {
+  border: 1px solid black;
+  font-size: 14pt;
+}
+
+table.tframe td[stateButton="ready"] {
+  background-color: Lime;
+}
+
+table.tframe td[state="ignore"] {
+  background-color: lightgray;
+}
+
+table.tframe th {
+  border: 1px solid black;
+  font-size: 14pt;
+}

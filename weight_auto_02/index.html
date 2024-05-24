@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<meta http-equiv="Cache-Control" content="no-cache" />
+		<title>Весы автомобильные</title>
+	</head>
+	<body>
+		<?php require("config.php");
+			if($SHOW_WORK_DATA)
+				echo("<a href='work.php'>Рабочая таблица</a>");
+		?>
+		<div class="title_main_page">
+			<h2>Название весов</h2>
+			<h4>Телефон</h4>
+		</div>
+
+		<?php require("func.php");?>
+		<form action="result.php" method="post">
+			<fieldset>
+				<legend>Начальная дата</legend>
+				<table class="select" cellspacing="0" cellpadding="10" width="49%" align="center" border="0">
+					<tbody>
+						<tr>
+							<td>
+								Год&nbsp;
+								<select name="year1">
+									<?php print_select_year("2014",40); ?>
+								</select>
+							</td>
+							<td>
+								Месяц&nbsp;
+								<select name="month1">
+									<?php print_select_month(); ?>
+								</select>
+							</td>
+							<td>
+								Число&nbsp;
+								<select name="day1">
+									<?php print_select_day(); ?>
+								</select>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</fieldset>
+
+			<fieldset>
+				<legend>Конечная дата</legend>
+				<table class="select" cellspacing="0" cellpadding="10" width="49%" align="center" border="0">
+					<tbody>
+						<tr>
+							<td>
+								Год&nbsp;
+								<select name="year2">
+									<?php print_select_year("2014",40); ?>
+								</select>
+							</td>
+							<td>
+								Месяц&nbsp;
+								<select name="month2">
+									<?php print_select_month(); ?>
+								</select>
+							</td>
+							<td>
+								Число&nbsp;
+								<select name="day2">
+									<?php print_select_day(); ?>
+								</select>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</fieldset>
+
+			<fieldset>
+				<legend>Смена</legend>
+				<table cellspacing="0" cellpadding="10" width="49%" align="center" border="0">
+					<tbody>
+						<tr>
+							<td align="center">А<input type="checkbox" name="smena_a" checked /></td>
+							<td align="center">Б<input type="checkbox" name="smena_b" checked /></td>
+							<td align="center">В<input type="checkbox" name="smena_w" checked /></td>
+							<td align="center">Г<input type="checkbox" name="smena_g" checked /></td>
+						</tr>
+					</tbody>
+				</table>
+			</fieldset>
+
+			<table cellspacing="10" cellpadding="0" width="90%" border="0">
+				<tbody>
+					<tr>
+						<td align="right">Номер автомобиля</td>
+						<td><input size="13" type="text" name="ncar" maxlength="19" /></td>
+					</tr>
+				</tbody>
+			</table>
+			<input type="submit" value="Выбор" /> <input type="reset" value="Сброс" />
+		</form>
+	</body>
+</html>
