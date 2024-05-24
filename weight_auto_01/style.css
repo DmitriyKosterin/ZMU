@@ -1,0 +1,110 @@
+body
+{
+  font-family:"Arial"; 
+  background-color:white; 
+}
+
+.title_main_page
+{
+  background-color:lightgreen; 
+  text-align:center;
+  font:bold;
+}
+
+.title_main_page >h2
+{
+  font-size:16pt;
+}
+
+.title_main_page >h3
+{
+  font-size:14pt;
+}
+
+.title_main_page >h4
+{
+  font-size:12pt;
+	text-align:center;
+}
+
+LEGEND
+{
+  font-size:16pt;
+  font:bold;
+}
+
+table.select td 
+{
+  font-size:14pt;
+}
+
+select 
+{
+  font-size:14pt;
+}
+
+table.tframe 
+{
+  border-collapse:collapse; 
+  border:2px solid #000000;
+}
+
+table.tframe tr.titlerow 
+{
+  border:2px solid #000000; background-color: #EFEBEF
+}
+
+table.tframe tr 
+{
+  border: 1px solid #000000;
+}
+
+table.tframe td 
+{
+  border: 1px solid #000000;
+  font-size:14pt;
+}
+
+
+table.tframe td[stateButton=ready]
+{
+  background-color:Lime; 
+}
+
+table.tframe td[state=ignore]
+{
+  background-color:LightGrey; 
+}
+
+
+table.tframe th 
+{
+  border: 1px solid #000000;
+  font-size:14pt;
+}
+
+#curdata
+{
+  position: relative; 
+}
+
+
+#curweight
+{
+  font-size:40pt;
+  width: 20%;
+  text-align: center;
+  color:#0000ff;
+  margin: 0 auto;
+}
+
+
+#operator 
+{ 
+  font-size:16pt;
+  position: absolute; 
+  width: 20%;
+  bottom:0; right:0;
+  text-align:center;
+  text-decoration:underline;
+} 

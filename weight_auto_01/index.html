@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Весы автомобильные</title>
+  </head>
+  <body>
+    <?php require("func.inc.php"); ?>
+    <div class="title_main_page">
+      <h2>Название весов</h2>
+      <h4>Телефон</h4>
+    </div>
+    <p>
+      <a href="work.php">Рабочая таблица</a>
+    </p> 
+    <form action="au.php" method="post">
+      <p>
+        <fieldset>
+          <legend>Начальная дата</legend>
+          <table class="select" cellspacing=0 cellpadding=10 width="49%" align=center border=0>
+            <tbody>
+              <tr>
+                <td>Год&nbsp
+                  <select name="year1">
+                    <?php print_select_year("2014",40); ?>
+                  </select>
+                </td>
+                <td>Месяц&nbsp
+                  <select name="month1">
+                    <?php print_select_month(); ?>
+                  </select>
+                </td>
+                <td>Число&nbsp
+                  <select name="day1">
+                    <?php print_select_day(); ?>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </fieldset>
+      </p>
+      <fieldset>
+        <legend>Конечная дата</legend>
+        <table class="select" cellspacing=0 cellpadding=10 width="49%" align=center border=0>
+          <tbody>
+            <tr>
+              <td>Год&nbsp
+                <select name="year2">
+                  <?php print_select_year("2014",40); ?>
+                </select>
+              </td>
+              <td>Месяц&nbsp
+                <select name="month2">
+                  <?php print_select_month(); ?>
+                </select>
+              </td>
+              <td>Число&nbsp
+                <select name="day2">
+                  <?php print_select_day(); ?>
+                </select>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </fieldset><br>
+      <fieldset>
+        <legend>Смена</legend>
+        <table cellspacing=0 cellpadding=10 width="49%" align=center border=0>
+          <tbody>
+            <tr>
+              <td align=center>А<input type="checkbox" name="smena_a" checked></td>
+              <td align=center>Б<INPUT type="checkbox" name="smena_b" checked></td>
+              <td align=center>В<INPUT type="checkbox" name="smena_w" checked></td>
+              <td align=center>Г<INPUT type="checkbox" name="smena_g" checked></td>
+            </tr>
+          </tbody>
+        </table>
+      </fieldset>
+      <table cellspacing=10 cellpadding=0 width="90%" border=0>
+        <tbody>
+          <tr>
+            <td align=right>Номер автомобиля</td>
+            <td><input size=13 type="text" name="ncar" maxlength=12></td>
+          </tr>
+        </tbody>
+      </table><br><br>
+      <input type="submit" value="Выбор"> 
+      <input type="reset" value="Сброс">
+    </form>
+  </body>
+</html>
