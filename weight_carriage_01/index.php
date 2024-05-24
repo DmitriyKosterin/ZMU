@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Отгрузка аммиака в цистернах</title>
+<title>Название весов</title>
 <link rel="stylesheet" href="css/pure-min.css">
 <link rel="stylesheet" href="css/style.css">
 
